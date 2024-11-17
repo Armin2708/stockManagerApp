@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.insuranceApp.insuranceClient.InsuranceClientJPADataAccessTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.029 s <<< FAILURE! - in com.insuranceApp.insuranceClient.InsuranceClientJPADataAccessTest
+getAllClient  Time elapsed: 0.005 s  <<< FAILURE!
+org.mockito.exceptions.verification.opentest4j.ArgumentsAreDifferent: 
+
+Argument(s) are different! Wanted:
+insuranceClientRepository.findAll(
+    
+);
+-> at com.insuranceApp.insuranceClient.InsuranceClientJPADataAccessTest.getAllClient(InsuranceClientJPADataAccessTest.java:57)
+Actual invocations have different arguments:
+insuranceClientRepository.findAll(
+    Page request [number: 0, size 2147483647, sort: UNSORTED]
+);
+-> at com.insuranceApp.insuranceClient.InsuranceClientJPADataAccess.getAllClient(InsuranceClientJPADataAccess.java:26)
+
+	at com.insuranceApp.insuranceClient.InsuranceClientJPADataAccessTest.getAllClient(InsuranceClientJPADataAccessTest.java:57)
+

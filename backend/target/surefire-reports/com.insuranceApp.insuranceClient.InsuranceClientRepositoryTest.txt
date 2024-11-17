@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.insuranceApp.insuranceClient.InsuranceClientRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 1.461 s <<< FAILURE! - in com.insuranceApp.insuranceClient.InsuranceClientRepositoryTest
+findByFirstNameContaining  Time elapsed: 0.009 s  <<< ERROR!
+org.springframework.dao.InvalidDataAccessApiUsageException: Unable to locate Attribute with the given name [age_risk] on this ManagedType [com.insuranceApp.insuranceClient.InsuranceClient]
+	at com.insuranceApp.insuranceClient.InsuranceClientRepositoryTest.findByFirstNameContaining(InsuranceClientRepositoryTest.java:93)
+Caused by: java.lang.IllegalArgumentException: Unable to locate Attribute with the given name [age_risk] on this ManagedType [com.insuranceApp.insuranceClient.InsuranceClient]
+	at com.insuranceApp.insuranceClient.InsuranceClientRepositoryTest.findByFirstNameContaining(InsuranceClientRepositoryTest.java:93)
+
+findByFirstNameContainingAndLastNameContaining  Time elapsed: 0.004 s  <<< ERROR!
+org.springframework.dao.InvalidDataAccessApiUsageException: Unable to locate Attribute with the given name [age_risk] on this ManagedType [com.insuranceApp.insuranceClient.InsuranceClient]
+	at com.insuranceApp.insuranceClient.InsuranceClientRepositoryTest.findByFirstNameContainingAndLastNameContaining(InsuranceClientRepositoryTest.java:71)
+Caused by: java.lang.IllegalArgumentException: Unable to locate Attribute with the given name [age_risk] on this ManagedType [com.insuranceApp.insuranceClient.InsuranceClient]
+	at com.insuranceApp.insuranceClient.InsuranceClientRepositoryTest.findByFirstNameContainingAndLastNameContaining(InsuranceClientRepositoryTest.java:71)
+
+findByLastNameContaining  Time elapsed: 0.004 s  <<< ERROR!
+org.springframework.dao.InvalidDataAccessApiUsageException: Unable to locate Attribute with the given name [age_risk] on this ManagedType [com.insuranceApp.insuranceClient.InsuranceClient]
+	at com.insuranceApp.insuranceClient.InsuranceClientRepositoryTest.findByLastNameContaining(InsuranceClientRepositoryTest.java:116)
+Caused by: java.lang.IllegalArgumentException: Unable to locate Attribute with the given name [age_risk] on this ManagedType [com.insuranceApp.insuranceClient.InsuranceClient]
+	at com.insuranceApp.insuranceClient.InsuranceClientRepositoryTest.findByLastNameContaining(InsuranceClientRepositoryTest.java:116)
+

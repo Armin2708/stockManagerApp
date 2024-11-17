@@ -1,0 +1,2 @@
+INSERT INTO client (id, email, firstname,lastname, gender, birth_date, phone_number, country, state, city, postal_code, street, age_risk, health_risk, job_risk, living_area_risk)
+VALUES (1, 'johndoe@mail.com', 'John', 'Doe', 'MALE', '2003-08-27', 0767676767, 'France', 'Yvelines', 'Chatou', 78400, '15 Rue Auguste Renoir', 'MEDIUM', 'MEDIUM', 'MEDIUM', 'MEDIUM');

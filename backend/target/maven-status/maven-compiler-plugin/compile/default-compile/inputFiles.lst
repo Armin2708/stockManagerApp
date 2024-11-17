@@ -1,0 +1,17 @@
+/Users/arminrad/Desktop/InsuranceApp/backend/src/main/java/com/insuranceApp/exception/RequestValidationException.java
+/Users/arminrad/Desktop/InsuranceApp/backend/src/main/java/com/insuranceApp/insuranceClient/InsuranceClientJPADataAccess.java
+/Users/arminrad/Desktop/InsuranceApp/backend/src/main/java/com/insuranceApp/exception/ResourceNotFoundException.java
+/Users/arminrad/Desktop/InsuranceApp/backend/src/main/java/com/insuranceApp/insuranceClient/InsuranceClientDao.java
+/Users/arminrad/Desktop/InsuranceApp/backend/src/main/java/com/insuranceApp/insuranceClient/InsuranceClient.java
+/Users/arminrad/Desktop/InsuranceApp/backend/src/main/java/com/insuranceApp/exception/DuplicateResourceException.java
+/Users/arminrad/Desktop/InsuranceApp/backend/src/main/java/com/insuranceApp/Main.java
+/Users/arminrad/Desktop/InsuranceApp/backend/src/main/java/com/insuranceApp/insuranceClient/InsuranceClientService.java
+/Users/arminrad/Desktop/InsuranceApp/backend/src/main/java/com/insuranceApp/insuranceClient/InsuranceClientPriceLogic.java
+/Users/arminrad/Desktop/InsuranceApp/backend/src/main/java/com/insuranceApp/customObjects/Gender.java
+/Users/arminrad/Desktop/InsuranceApp/backend/src/main/java/com/insuranceApp/requests/InsuranceClientRegistrationRequest.java
+/Users/arminrad/Desktop/InsuranceApp/backend/src/main/java/com/insuranceApp/insuranceClient/InsuranceClientRepository.java
+/Users/arminrad/Desktop/InsuranceApp/backend/src/main/java/com/insuranceApp/customObjects/RiskLevel.java
+/Users/arminrad/Desktop/InsuranceApp/backend/src/main/java/com/insuranceApp/config/WebMvcConfig.java
+/Users/arminrad/Desktop/InsuranceApp/backend/src/main/java/com/insuranceApp/requests/InsuranceClientUpdateRequest.java
+/Users/arminrad/Desktop/InsuranceApp/backend/src/main/java/com/insuranceApp/insuranceClient/InsuranceClientController.java
+/Users/arminrad/Desktop/InsuranceApp/backend/src/main/java/com/insuranceApp/PingPongController.java
