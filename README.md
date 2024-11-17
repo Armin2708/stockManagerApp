@@ -1,2 +1,2 @@
-# stockManagerApp
-intership project to build insurance app 
+# Stock Manager App
+intership project to build Stock Management App 
